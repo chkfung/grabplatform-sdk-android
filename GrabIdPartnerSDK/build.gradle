@@ -9,8 +9,8 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
+//apply plugin: 'org.jetbrains.dokka-android'
 apply plugin: 'kotlin-android-extensions'
-apply plugin: 'org.jetbrains.dokka-android'
 apply from: '../dependencies.gradle'
 
 android {
@@ -98,5 +98,5 @@ ext {
     }
 
 //gradle files to publish the .aar to Bintray
-apply from: './libs/install.gradle'
-apply from: './libs/bintray.gradle'
+//apply from: './libs/install.gradle'
+//apply from: './libs/bintray.gradle'
